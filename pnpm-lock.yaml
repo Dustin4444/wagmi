@@ -197,7 +197,7 @@ importers:
         version: 5.69.0(@types/node@24.6.2)(typescript@5.9.3)
       node:
         specifier: runtime:^24.5.1
-        version: runtime:24.15.0
+        version: runtime:24.22.2
       playwright:
         specifier: 1.56.1
         version: 1.56.1
@@ -230,7 +230,7 @@ importers:
         version: 5.9.3
       viem:
         specifier: 2.51.0
-        version: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       vite:
         specifier: 'catalog:'
         version: 8.0.14(@types/node@24.6.2)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.31.0)(tsx@4.21.0)(yaml@2.8.3)
@@ -251,7 +251,7 @@ importers:
     dependencies:
       abitype:
         specifier: ^1.1.1
-        version: 1.1.1(typescript@5.9.3)(zod@4.1.11)
+        version: 1.1.1(typescript@5.9.3)(zod@4.6.7)
       bundle-require:
         specifier: ^5.1.0
         version: 5.1.0(esbuild@0.25.4)
@@ -299,10 +299,10 @@ importers:
         version: 3.0.3
       viem:
         specifier: 2.x
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.1.11)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       zod:
-        specifier: ^4.1.11
-        version: 4.1.11
+        specifier: ^4.6.6
+        version: 4.6.7
     devDependencies:
       '@types/dedent':
         specifier: ^0.7.2
@@ -373,7 +373,7 @@ importers:
         version: 5.49.1
       accounts:
         specifier: 'catalog:'
-        version: 0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6))(wagmi@packages+react)
+        version: 0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7))(wagmi@packages+react)
 
   packages/create-wagmi:
     dependencies:
@@ -518,7 +518,7 @@ importers:
         version: link:../vue
       ox:
         specifier: 'catalog:'
-        version: 0.11.1(typescript@5.9.3)(zod@4.3.6)
+        version: 0.11.1(typescript@5.9.3)(zod@4.6.7)
       react:
         specifier: 'catalog:'
         version: 19.2.0
@@ -579,7 +579,7 @@ importers:
         version: 19.2.0(react@19.2.0)
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       wagmi:
         specifier: workspace:*
         version: link:../../packages/react
@@ -607,7 +607,7 @@ importers:
         version: 4.4.6(@babel/plugin-syntax-jsx@7.28.6(@babel/core@7.29.0))(@babel/plugin-syntax-typescript@7.28.6(@babel/core@7.29.0))(@biomejs/biome@2.2.4)(@parcel/watcher@2.5.6)(@types/node@24.6.2)(@vue/compiler-sfc@3.5.34)(bufferutil@4.0.8)(cac@6.7.14)(db0@0.3.4)(esbuild@0.28.0)(idb-keyval@6.2.2)(ioredis@5.10.1)(lightningcss@1.32.0)(magicast@0.5.2)(rolldown@1.0.2)(rollup-plugin-visualizer@7.0.1(rolldown@1.0.2)(rollup@4.59.0))(rollup@4.59.0)(terser@5.31.0)(tsx@4.21.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(vite@8.0.14(@types/node@24.6.2)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.31.0)(tsx@4.21.0)(yaml@2.8.3))(vue-tsc@3.1.3(typescript@5.9.3))(yaml@2.8.3)
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       vue:
         specifier: 'catalog:'
         version: 3.5.25(typescript@5.9.3)
@@ -631,7 +631,7 @@ importers:
         version: 1.9.10
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       vinxi:
         specifier: ^0.5.7
         version: 0.5.10(@types/node@24.6.2)(db0@0.3.4)(idb-keyval@6.2.2)(ioredis@5.10.1)(jiti@2.7.0)(oxc-parser@0.131.0)(rolldown@1.0.2)(terser@5.31.0)(tsx@4.21.0)(yaml@2.8.3)
@@ -667,7 +667,7 @@ importers:
         version: 19.2.0(react@19.2.0)
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       wagmi:
         specifier: workspace:*
         version: link:../../packages/react
@@ -719,7 +719,7 @@ importers:
         version: 19.2.0(react@19.2.0)
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
     devDependencies:
       '@types/react':
         specifier: 'catalog:'
@@ -750,7 +750,7 @@ importers:
         version: 5.90.12(@tanstack/react-query@5.49.2(react@19.2.0))(react@19.2.0)
       accounts:
         specifier: 'catalog:'
-        version: 0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6))(wagmi@packages+react)
+        version: 0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7))(wagmi@packages+react)
       cuer:
         specifier: ^0.0.3
         version: 0.0.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(typescript@5.9.3)
@@ -765,7 +765,7 @@ importers:
         version: 19.2.0(react@19.2.0)
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       wagmi:
         specifier: workspace:*
         version: link:../../packages/react
@@ -805,7 +805,7 @@ importers:
         version: 1.9.10
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
     devDependencies:
       buffer:
         specifier: 'catalog:'
@@ -827,7 +827,7 @@ importers:
         version: link:../../packages/vue
       viem:
         specifier: 2.*
-        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+        version: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       vue:
         specifier: 'catalog:'
         version: 3.5.25(typescript@5.9.3)
@@ -3282,7 +3282,7 @@ packages:
     hasBin: true
     peerDependencies:
       '@vitejs/devtools': '*'
-      vite: '>=7.3.2'
+      vite: '>=6.4.2'
     peerDependenciesMeta:
       '@vitejs/devtools':
         optional: true
@@ -4067,7 +4067,7 @@ packages:
 
   '@paulmillr/qr@0.2.1':
     resolution: {integrity: sha512-IHnV6A+zxU7XwmKFinmYjUcwlyK9+xkG3/s9KcQhI9BjQKycrJ1JRO+FbNYPwZiPKW3je/DR0k7w8/gLa5eaxQ==}
-    deprecated: 'The package is now available as "qr": npm install qr'
+    deprecated: 'Switch to "qr" (new package name) for security updates: npm install qr'
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -4596,6 +4596,7 @@ packages:
 
   '@safe-global/safe-gateway-typescript-sdk@3.8.0':
     resolution: {integrity: sha512-CiGWIHgIaOdICpDxp05Jw3OPslWTu8AnL0PhrCT1xZgIO86NlMMLzkGbeycJ4FHpTjA999O791Oxp4bZPIjgHA==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@scure/base@1.1.9':
     resolution: {integrity: sha512-8YKhl8GHiNI/pU2VMaofa2Tor7PJRAjwQLBBuilkJ9L5+13yVbC7JO/wS7piioAvPSwR3JKM1IJ/u4xQzbcXKg==}
@@ -5038,6 +5039,7 @@ packages:
   '@svitejs/changesets-changelog-github-compact@1.2.0':
     resolution: {integrity: sha512-08eKiDAjj4zLug1taXSIJ0kGL5cawjVCyJkBb6EWSg5fEPX6L+Wtr0CH2If4j5KYylz85iaZiFlUItvgJvll5g==}
     engines: {node: ^14.13.1 || ^16.0.0 || >=18}
+    deprecated: unmaintained
 
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
@@ -5568,6 +5570,7 @@ packages:
 
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@unhead/vue@2.1.15':
     resolution: {integrity: sha512-SSByXfEjhzPn8gXdEdgpYqpLMPSkLUH2HVE0GxZfOtNsJ0GgOHQs0g9T67ZZ1z0kTELLKdtOtYrzrbv9+ffF7g==}
@@ -5694,7 +5697,7 @@ packages:
     resolution: {integrity: sha512-jIAsvHOEtWpslLOI2MeElGFxH7M8pM83BU/Tor4RLyiwH0FM4nUW3xdvbw20EeU9wc5IspQwMq225K3CMnJEpA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      vite: '>=7.3.2'
+      vite: '>=6.4.2'
       vue: ^3.0.0
 
   '@vitejs/plugin-vue@5.2.4':
@@ -5715,7 +5718,7 @@ packages:
     resolution: {integrity: sha512-km+p+XdSz9Sxm5rqUbqcSfZYaAniKxWBj1KURl+Jr7UaPvvX7BmaWMdP69I5rrFDeQGyxAG7NXdc57vz+snhWg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      vite: '>=7.3.2'
+      vite: '>=6.4.2'
       vue: ^3.2.25
 
   '@vitest/browser-playwright@4.1.2':
@@ -5745,7 +5748,7 @@ packages:
     resolution: {integrity: sha512-Ize4iQtEALHDttPRCmN+FKqOl2vxTiNUhzobQFFt/BM1lRUTG7zRCLOykG/6Vo4E4hnUdfVLo5/eqKPukcWW7Q==}
     peerDependencies:
       msw: ^2.4.9
-      vite: 8.0.14
+      vite: '>=6.4.2'
     peerDependenciesMeta:
       msw:
         optional: true
@@ -8714,94 +8717,103 @@ packages:
   node-releases@2.0.36:
     resolution: {integrity: sha512-TdC8FSgHz8Mwtw9g5L4gR/Sh9XhSP/0DEkQxfEFXOpiul5IiHgHan2VhYYb6agDSfp4KuvltmGApc8HMgUrIkA==}
 
-  node@runtime:24.15.0:
+  node@runtime:24.22.2:
     resolution:
       type: variations
       variants:
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-3UvHfctfTJoslkNzm7WTUAzLCUE+xCyqD47w5e8RYJU=
+            integrity: sha256-s9D3zDDSjkR0j4TdskyXqHNZJ0QPrv/JbjRFSRQWenk=
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-aix-ppc64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-aix-ppc64.tar.gz
           targets:
             - cpu: ppc64
               os: aix
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-NyMxuWl3mrXRW5SYhPxur4jVr+h73ouogdZAC5EA/8Q=
+            integrity: sha256-qpVJNJ5H3/qkLc+V1uBq3oxL2vyYCXmIO4h2dnDfOFo=
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-darwin-arm64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-darwin-arm64.tar.gz
           targets:
             - cpu: arm64
               os: darwin
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-/9XuKTRnkn8+5zGlU+uI/R9Iz3TuvC10prq+SvIoZzs=
+            integrity: sha256-1eM21YjEW+DDfb1SzCmJVZMAnKSZeneh/QKBUTHtDlI=
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-darwin-x64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-darwin-x64.tar.gz
           targets:
             - cpu: x64
               os: darwin
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-c6/CNNVYwkkZh19RwtHqACoq2k6m+DYBo4OGn++mTu0=
+            integrity: sha256-lcJkFQrOt/NDein9aYSST1+NFRHqPL1sUIuD9sVV2uI=
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-linux-arm64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-arm64.tar.gz
           targets:
             - cpu: arm64
               os: linux
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-sfiJAKSxY2XqulYmkwT8Edp1gdvwNVLUSV+azh/AX20=
+            integrity: sha256-9WQOG2VrZ/YA44z5xfJ460KMlJiZT1ykHWQG+6BgqfM=
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-linux-ppc64le.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-ppc64le.tar.gz
           targets:
             - cpu: ppc64le
               os: linux
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-+YVFVDnVL+m43mqPbQe/7MxzbepSfofqyv5ajXUWo4A=
+            integrity: sha256-Nyhvy37wtDG3X/nc7VF/1zstSg6cRgJC1Ml5i4ubQkc=
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-linux-s390x.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-s390x.tar.gz
           targets:
             - cpu: s390x
               os: linux
         - resolution:
             archive: tarball
             bin: bin/node
-            integrity: sha256-RINoctmuxJ8ea1KpqSKHLbmisC0jWmFqVoG2qF/sjYk=
+            integrity: sha256-EevRbI14GcBnUhEiVQUnPXrqMFqN2FqcCusfvsI0MyA=
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-linux-x64.tar.gz
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-x64-musl.tar.gz
+          targets:
+            - cpu: x64-musl
+              os: linux
+        - resolution:
+            archive: tarball
+            bin: bin/node
+            integrity: sha256-NhcYxETkmvLKWhEMg7pqiQEUPyOrKF677wNB85H0gqk=
+            type: binary
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-linux-x64.tar.gz
           targets:
             - cpu: x64
               os: linux
         - resolution:
             archive: zip
             bin: node.exe
-            integrity: sha256-yet0Au2ibiun5EtnJ/yFqN5WxQlbH3Hr0wYokiEaoRY=
-            prefix: node-v24.15.0-win-arm64
+            integrity: sha256-9HlowhMQUHf2TGUQ8AdjLAyiV0gCoLUGfDJ8SavhxGg=
+            prefix: node-v24.22.2-win-arm64
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-win-arm64.zip
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-win-arm64.zip
           targets:
             - cpu: arm64
               os: win32
         - resolution:
             archive: zip
             bin: node.exe
-            integrity: sha256-zFFJ6r1Td5zh573FQBZDYi0MfmgAreGJKKdn6UC7DmI=
-            prefix: node-v24.15.0-win-x64
+            integrity: sha256-yhv/XY6tE8ny6kBKF220a9QwcE1bURNzQEn6Nl53meI=
+            prefix: node-v24.22.2-win-x64
             type: binary
-            url: https://nodejs.org/download/release/v24.15.0/node-v24.15.0-win-x64.zip
+            url: https://nodejs.org/download/release/v24.22.2/node-v24.22.2-win-x64.zip
           targets:
             - cpu: x64
               os: win32
-    version: 24.15.0
+    version: 24.22.2
     hasBin: true
 
   nopt@7.2.1:
@@ -10173,6 +10185,11 @@ packages:
     engines: {node: '>=20.16.0'}
     hasBin: true
 
+  srvx@1.0.8:
+    resolution: {integrity: sha512-ngFS/J6St4PJfHRHGjr78xkPPtbyXtdMOLNE4x/XZunEK3OhV7aGUWMHf9WTUEy6wm1U0W4okkd82ZFFWRVQTw==}
+    engines: {node: '>=20.16.0'}
+    hasBin: true
+
   ssh-remote-port-forward@1.0.4:
     resolution: {integrity: sha512-x0LV1eVDwjf1gmG7TTnfqIzf+3VPRz7vrNIjX6oYLbeCrf/PeVY6hkT68Mg+q02qXxQhrLjB0jfgvhevoCRmLQ==}
 
@@ -10978,7 +10995,7 @@ packages:
       oxlint: '>=1'
       stylelint: '>=16.26.1'
       typescript: '*'
-      vite: '>=7.3.2'
+      vite: '>=6.4.2'
       vls: '*'
       vti: '*'
       vue-tsc: ~2.2.10 || ^3.0.0
@@ -11035,7 +11052,7 @@ packages:
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
       solid-js: ^1.7.2
-      vite: '>=7.3.2'
+      vite: '>=6.4.2'
     peerDependenciesMeta:
       '@testing-library/jest-dom':
         optional: true
@@ -11514,11 +11531,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.1.11:
-    resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
-
-  zod@4.3.6:
-    resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
+  zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
 
   zustand@5.0.0:
     resolution: {integrity: sha512-LE+VcmbartOPM+auOjCCLQOsQ05zUTp8RkgwRzefUk+2jISdMMFnxvyTjA4YNWr5ZGXYbVsEMZosttuxUBkojQ==}
@@ -13486,7 +13500,7 @@ snapshots:
 
   '@modelcontextprotocol/server@2.0.0-alpha.2(@cfworker/json-schema@4.1.1)':
     dependencies:
-      zod: 4.3.6
+      zod: 4.6.7
     optionalDependencies:
       '@cfworker/json-schema': 4.1.1
 
@@ -17768,10 +17782,10 @@ snapshots:
       typescript: 5.9.3
       zod: 3.25.76
 
-  abitype@1.1.1(typescript@5.9.3)(zod@4.1.11):
+  abitype@1.1.1(typescript@5.9.3)(zod@4.6.7):
     optionalDependencies:
       typescript: 5.9.3
-      zod: 4.1.11
+      zod: 4.6.7
 
   abitype@1.2.3(typescript@5.9.3)(zod@3.22.4):
     optionalDependencies:
@@ -17783,34 +17797,29 @@ snapshots:
       typescript: 5.9.3
       zod: 3.25.76
 
-  abitype@1.2.3(typescript@5.9.3)(zod@4.1.11):
+  abitype@1.2.3(typescript@5.9.3)(zod@4.6.7):
     optionalDependencies:
       typescript: 5.9.3
-      zod: 4.1.11
-
-  abitype@1.2.3(typescript@5.9.3)(zod@4.3.6):
-    optionalDependencies:
-      typescript: 5.9.3
-      zod: 4.3.6
+      zod: 4.6.7
 
   abort-controller@3.0.0:
     dependencies:
       event-target-shim: 5.0.1
 
-  accounts@0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6))(wagmi@packages+react):
+  accounts@0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7))(wagmi@packages+react):
     dependencies:
       hono: 4.12.18
       idb-keyval: 6.2.2
       mipd: 0.0.7(typescript@5.9.3)
-      mppx: 0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6))
-      ox: 0.14.20(typescript@5.9.3)(zod@4.3.6)
-      webauthx: 0.1.1(typescript@5.9.3)(zod@4.3.6)
-      zod: 4.3.6
+      mppx: 0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7))
+      ox: 0.14.20(typescript@5.9.3)(zod@4.6.7)
+      webauthx: 0.1.1(typescript@5.9.3)(zod@4.6.7)
+      zod: 4.6.7
       zustand: 5.0.12(@types/react@19.2.3)(react@19.2.0)(use-sync-external-store@1.6.0(react@19.2.0))
     optionalDependencies:
       '@wagmi/core': link:packages/core
       react: 19.2.0
-      viem: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+      viem: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       wagmi: link:packages/react
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
@@ -17827,9 +17836,9 @@ snapshots:
       idb-keyval: 6.2.2
       mipd: 0.0.7(typescript@5.9.3)
       mppx: 0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
-      ox: 0.14.20(typescript@5.9.3)(zod@4.3.6)
-      webauthx: 0.1.1(typescript@5.9.3)(zod@4.3.6)
-      zod: 4.3.6
+      ox: 0.14.20(typescript@5.9.3)(zod@4.6.7)
+      webauthx: 0.1.1(typescript@5.9.3)(zod@4.6.7)
+      zod: 4.6.7
       zustand: 5.0.12(@types/react@19.2.3)(react@19.2.0)(use-sync-external-store@1.6.0(react@19.2.0))
     optionalDependencies:
       '@wagmi/core': link:packages/core
@@ -17845,20 +17854,20 @@ snapshots:
       - typescript
       - use-sync-external-store
 
-  accounts@0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6))(wagmi@packages+react):
+  accounts@0.12.0(@types/react@19.2.3)(@wagmi/core@packages+core)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.6.0(react@19.2.0))(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7))(wagmi@packages+react):
     dependencies:
       hono: 4.12.18
       idb-keyval: 6.2.2
       mipd: 0.0.7(typescript@5.9.3)
-      mppx: 0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6))
-      ox: 0.14.20(typescript@5.9.3)(zod@4.3.6)
-      webauthx: 0.1.1(typescript@5.9.3)(zod@4.3.6)
-      zod: 4.3.6
+      mppx: 0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7))
+      ox: 0.14.20(typescript@5.9.3)(zod@4.6.7)
+      webauthx: 0.1.1(typescript@5.9.3)(zod@4.6.7)
+      zod: 4.6.7
       zustand: 5.0.12(@types/react@19.2.3)(react@19.2.0)(use-sync-external-store@1.6.0(react@19.2.0))
     optionalDependencies:
       '@wagmi/core': link:packages/core
       react: 19.2.0
-      viem: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
+      viem: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
       wagmi: link:packages/react
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
@@ -19538,7 +19547,7 @@ snapshots:
   h3@2.0.1-rc.18:
     dependencies:
       rou3: 0.8.1
-      srvx: 0.11.15
+      srvx: 1.0.8
 
   happy-dom@20.8.9(bufferutil@4.0.8)(utf-8-validate@5.0.10):
     dependencies:
@@ -19707,7 +19716,7 @@ snapshots:
       '@toon-format/toon': 2.1.0
       tokenx: 1.3.0
       yaml: 2.8.3
-      zod: 4.3.6
+      zod: 4.6.7
 
   inherits@2.0.4: {}
 
@@ -19942,7 +19951,7 @@ snapshots:
       smol-toml: 1.6.1
       strip-json-comments: 5.0.2
       typescript: 5.9.3
-      zod: 4.1.11
+      zod: 4.6.7
 
   knitwork@1.3.0: {}
 
@@ -20585,12 +20594,12 @@ snapshots:
 
   mocked-exports@0.1.1: {}
 
-  mppx@0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)):
+  mppx@0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)):
     dependencies:
       incur: 0.4.5
-      ox: 0.14.18(typescript@5.9.3)(zod@4.3.6)
-      viem: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
-      zod: 4.3.6
+      ox: 0.14.18(typescript@5.9.3)(zod@4.6.7)
+      viem: 2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
+      zod: 4.6.7
     optionalDependencies:
       hono: 4.12.18
     transitivePeerDependencies:
@@ -20599,20 +20608,20 @@ snapshots:
   mppx@0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76)):
     dependencies:
       incur: 0.4.5
-      ox: 0.14.18(typescript@5.9.3)(zod@4.3.6)
+      ox: 0.14.18(typescript@5.9.3)(zod@4.6.7)
       viem: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      zod: 4.3.6
+      zod: 4.6.7
     optionalDependencies:
       hono: 4.12.18
     transitivePeerDependencies:
       - typescript
 
-  mppx@0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)):
+  mppx@0.6.19(hono@4.12.18)(typescript@5.9.3)(viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)):
     dependencies:
       incur: 0.4.5
-      ox: 0.14.18(typescript@5.9.3)(zod@4.3.6)
-      viem: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6)
-      zod: 4.3.6
+      ox: 0.14.18(typescript@5.9.3)(zod@4.6.7)
+      viem: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7)
+      zod: 4.6.7
     optionalDependencies:
       hono: 4.12.18
     transitivePeerDependencies:
@@ -20828,7 +20837,7 @@ snapshots:
 
   node-releases@2.0.36: {}
 
-  node@runtime:24.15.0: {}
+  node@runtime:24.22.2: {}
 
   nopt@7.2.1:
     dependencies:
@@ -21189,7 +21198,7 @@ snapshots:
 
   outvariant@1.4.3: {}
 
-  ox@0.11.1(typescript@5.9.3)(zod@4.3.6):
+  ox@0.11.1(typescript@5.9.3)(zod@4.6.7):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -21197,14 +21206,14 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.3.6)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
       - zod
 
-  ox@0.14.18(typescript@5.9.3)(zod@4.3.6):
+  ox@0.14.18(typescript@5.9.3)(zod@4.6.7):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -21212,7 +21221,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.3.6)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.9.3
@@ -21234,7 +21243,7 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
-  ox@0.14.20(typescript@5.9.3)(zod@4.3.6):
+  ox@0.14.20(typescript@5.9.3)(zod@4.6.7):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -21242,14 +21251,14 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.3.6)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.9.3
     transitivePeerDependencies:
       - zod
 
-  ox@0.14.5(typescript@5.9.3)(zod@4.1.11):
+  ox@0.14.5(typescript@5.9.3)(zod@4.6.7):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -21257,22 +21266,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.1.11)
-      eventemitter3: 5.0.1
-    optionalDependencies:
-      typescript: 5.9.3
-    transitivePeerDependencies:
-      - zod
-
-  ox@0.14.5(typescript@5.9.3)(zod@4.3.6):
-    dependencies:
-      '@adraffy/ens-normalize': 1.11.1
-      '@noble/ciphers': 1.3.0
-      '@noble/curves': 1.9.1
-      '@noble/hashes': 1.8.0
-      '@scure/bip32': 1.7.0
-      '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.3.6)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.9.3
@@ -21307,7 +21301,7 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
-  ox@0.9.6(typescript@5.9.3)(zod@4.1.11):
+  ox@0.9.6(typescript@5.9.3)(zod@4.6.7):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -21315,7 +21309,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.1.11)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.9.3
@@ -21352,7 +21346,7 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
-  ox@https://pkg.pr.new/ox@386a3439fe1ce76d237930f8c6e6bb493746069a(typescript@5.9.3)(zod@4.3.6):
+  ox@https://pkg.pr.new/ox@386a3439fe1ce76d237930f8c6e6bb493746069a(typescript@5.9.3)(zod@4.6.7):
     dependencies:
       '@adraffy/ens-normalize': 1.11.1
       '@noble/ciphers': 1.3.0
@@ -21360,7 +21354,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.3.6)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.9.3
@@ -21613,9 +21607,9 @@ snapshots:
       hono: 4.12.18
       idb-keyval: 6.2.1
       mipd: 0.0.7(typescript@5.9.3)
-      ox: 0.9.6(typescript@5.9.3)(zod@4.1.11)
+      ox: 0.9.6(typescript@5.9.3)(zod@4.6.7)
       viem: 2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76)
-      zod: 4.1.11
+      zod: 4.6.7
       zustand: 5.0.3(@types/react@19.2.3)(react@19.2.0)(use-sync-external-store@1.6.0(react@19.2.0))
     optionalDependencies:
       react: 19.2.0
@@ -22704,6 +22698,8 @@ snapshots:
 
   srvx@0.11.15: {}
 
+  srvx@1.0.8: {}
+
   ssh-remote-port-forward@1.0.4:
     dependencies:
       '@types/ssh2': 0.5.52
@@ -23467,32 +23463,15 @@ snapshots:
       - utf-8-validate
       - zod
 
-  viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.1.11):
+  viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7):
     dependencies:
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.1.11)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       isows: 1.0.7(ws@8.20.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))
-      ox: 0.14.5(typescript@5.9.3)(zod@4.1.11)
-      ws: 8.20.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-    optionalDependencies:
-      typescript: 5.9.3
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
-      - zod
-
-  viem@2.47.5(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6):
-    dependencies:
-      '@noble/curves': 1.9.1
-      '@noble/hashes': 1.8.0
-      '@scure/bip32': 1.7.0
-      '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.3.6)
-      isows: 1.0.7(ws@8.20.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))
-      ox: 0.14.5(typescript@5.9.3)(zod@4.3.6)
+      ox: 0.14.5(typescript@5.9.3)(zod@4.6.7)
       ws: 8.20.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     optionalDependencies:
       typescript: 5.9.3
@@ -23552,15 +23531,15 @@ snapshots:
       - utf-8-validate
       - zod
 
-  viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.3.6):
+  viem@2.51.0(bufferutil@4.0.8)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@4.6.7):
     dependencies:
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.2.3(typescript@5.9.3)(zod@4.3.6)
+      abitype: 1.2.3(typescript@5.9.3)(zod@4.6.7)
       isows: 1.0.7(ws@8.20.1(bufferutil@4.0.8)(utf-8-validate@5.0.10))
-      ox: https://pkg.pr.new/ox@386a3439fe1ce76d237930f8c6e6bb493746069a(typescript@5.9.3)(zod@4.3.6)
+      ox: https://pkg.pr.new/ox@386a3439fe1ce76d237930f8c6e6bb493746069a(typescript@5.9.3)(zod@4.6.7)
       ws: 8.20.1(bufferutil@4.0.8)(utf-8-validate@5.0.10)
     optionalDependencies:
       typescript: 5.9.3
@@ -23604,7 +23583,7 @@ snapshots:
       unenv: 1.10.0
       unstorage: 1.17.2(db0@0.3.4)(idb-keyval@6.2.2)(ioredis@5.10.1)
       vite: 8.0.14(@types/node@24.6.2)(esbuild@0.25.12)(jiti@2.7.0)(terser@5.31.0)(tsx@4.21.0)(yaml@2.8.3)
-      zod: 4.1.11
+      zod: 4.6.7
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -24014,9 +23993,9 @@ snapshots:
 
   walk-up-path@4.0.0: {}
 
-  webauthx@0.1.1(typescript@5.9.3)(zod@4.3.6):
+  webauthx@0.1.1(typescript@5.9.3)(zod@4.6.7):
     dependencies:
-      ox: 0.14.20(typescript@5.9.3)(zod@4.3.6)
+      ox: 0.14.20(typescript@5.9.3)(zod@4.6.7)
     transitivePeerDependencies:
       - typescript
       - zod
@@ -24265,9 +24244,7 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zod@4.1.11: {}
-
-  zod@4.3.6: {}
+  zod@4.6.7: {}
 
   zustand@5.0.0(@types/react@19.2.3)(react@19.2.0)(use-sync-external-store@1.6.0(react@19.2.0)):
     optionalDependencies:
